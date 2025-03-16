@@ -10,11 +10,12 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="**目前就这几个**
-心形树[https://fufukai.github.io/Awesome-Love-Code/Web/003/](url)
-照片墙[https://fufukai.github.io/Awesome-Love-Code/Web/007/](url)
-星空  _有点卡_[https://fufukai.github.io/Awesome-Love-Code/Web/030/](url)
-模仿百度[https://fufukai.github.io/Awesome-Love-Code/Web/018/](url)
+<meta name="description" content="跳转有点问题，建议复制链接到浏览器
+**目前就这几个**
+ 心形树https://fufukai.github.io/Awesome-Love-Code/Web/003/
+照片墙https://fufukai.github.io/Awesome-Love-Code/Web/007/
+星空  _有点卡_https://fufukai.github.io/Awesome-Love-Code/Web/030/
+模仿百度https://fufukai.github.io/Awesome-Love-Code/Web/018/
 
 
 
@@ -28,11 +29,12 @@
 from 金俊熙粉丝后援会
 。">
 <meta property="og:title" content="金俊熙目前的应援网站">
-<meta property="og:description" content="**目前就这几个**
-心形树[https://fufukai.github.io/Awesome-Love-Code/Web/003/](url)
-照片墙[https://fufukai.github.io/Awesome-Love-Code/Web/007/](url)
-星空  _有点卡_[https://fufukai.github.io/Awesome-Love-Code/Web/030/](url)
-模仿百度[https://fufukai.github.io/Awesome-Love-Code/Web/018/](url)
+<meta property="og:description" content="跳转有点问题，建议复制链接到浏览器
+**目前就这几个**
+ 心形树https://fufukai.github.io/Awesome-Love-Code/Web/003/
+照片墙https://fufukai.github.io/Awesome-Love-Code/Web/007/
+星空  _有点卡_https://fufukai.github.io/Awesome-Love-Code/Web/030/
+模仿百度https://fufukai.github.io/Awesome-Love-Code/Web/018/
 
 
 
@@ -105,11 +107,12 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p><strong>目前就这几个</strong><br>
-心形树<a href="url">https://fufukai.github.io/Awesome-Love-Code/Web/003/</a><br>
-照片墙<a href="url">https://fufukai.github.io/Awesome-Love-Code/Web/007/</a><br>
-星空  <em>有点卡</em><a href="url">https://fufukai.github.io/Awesome-Love-Code/Web/030/</a><br>
-模仿百度<a href="url">https://fufukai.github.io/Awesome-Love-Code/Web/018/</a></p>
+<div class="markdown-body" id="postBody"><p>跳转有点问题，建议复制链接到浏览器<br>
+<strong>目前就这几个</strong><br>
+心形树<a href="https://fufukai.github.io/Awesome-Love-Code/Web/003/" rel="nofollow">https://fufukai.github.io/Awesome-Love-Code/Web/003/</a><br>
+照片墙<a href="https://fufukai.github.io/Awesome-Love-Code/Web/007/" rel="nofollow">https://fufukai.github.io/Awesome-Love-Code/Web/007/</a><br>
+星空  _有点卡_<a href="https://fufukai.github.io/Awesome-Love-Code/Web/030/" rel="nofollow">https://fufukai.github.io/Awesome-Love-Code/Web/030/</a><br>
+模仿百度<a href="https://fufukai.github.io/Awesome-Love-Code/Web/018/" rel="nofollow">https://fufukai.github.io/Awesome-Love-Code/Web/018/</a></p>
 <p>from 金俊熙粉丝后援会</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
@@ -169,7 +172,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="2";
+    cmButton.appendChild(span);
 
 
 function openComments(){
